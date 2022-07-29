@@ -1,18 +1,14 @@
 import java.util.Scanner;
 public class char2 {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        System.out.println("Ya zagadal chislo, poprobuy ugaday");
-        int x = s.nextInt();
-        while(x!=5){
-            System.out.println("HET, poprobuy ewe: ");
-            if (x<5) {
-                System.out.println("Bolshe!");
-            } else {
-                System.out.println("Menshe!");
+        int i = 0;
+        while(true){
+            if(i==145){
+                break;
             }
-            x = s.nextInt();
+        i++;
+        System.out.println("Stakan " + i);
         }
-        System.out.println("Molodec!");
+        System.out.println("Poigrali i hvatit!");
     }
 }
