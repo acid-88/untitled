@@ -4,6 +4,6 @@ public class char2 {
         Scanner s = new Scanner(System.in);
         System.out.println("Chto to napishi");
         String string = s.nextLine();
-        System.out.println("TI napisal " + string);
+        System.out.println("Sam ti " + string);
     }
 }
