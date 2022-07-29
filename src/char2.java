@@ -3,15 +3,15 @@ public class char2 {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         System.out.println("Vvedi age");
-        int age = x.nextInt();
+        String age = x.nextLine();
         switch(age){
-            case 0 :
+            case "DA" :
                 System.out.println("Ti mladenec");
                 break;
-            case 6 :
+            case "NET" :
                 System.out.println("Ti poshel v shkolu");
                 break;
-            case 18 :
+            case "HZ" :
                 System.out.println("Ti poshel v univer");
                 break;
             default:
